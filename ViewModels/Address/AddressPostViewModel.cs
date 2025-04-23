@@ -5,7 +5,7 @@ namespace MormorDagnysDel2.ViewModels.Address;
 public enum AddressTypeEnum
 {
     Delivery = 1,
-    Invoice = 2,
+    Billing = 2,
     Distribution = 3
 }
 public class AddressPostViewModel

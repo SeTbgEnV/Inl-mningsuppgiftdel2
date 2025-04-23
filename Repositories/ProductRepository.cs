@@ -25,6 +25,7 @@ public class ProductRepository(IAddressRepository repo, DataContext context) : I
             {
                 var view = new ProductViewModel
                 {
+                    Id = product.Id,
                     ProductName = product.ProductName,
                     Description = product.Description,
                     Price = product.Price,
